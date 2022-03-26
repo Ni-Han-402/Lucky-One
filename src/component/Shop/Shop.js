@@ -26,7 +26,10 @@ const Shop = () => {
             setRandom(random);
             console.log(random);
     }
-
+    const removeCart = () =>{
+        setCart([]);
+        setRandom([])
+    }
    
 
     return (
@@ -69,8 +72,8 @@ const Shop = () => {
                     
                 }
                 <div>
-                    <button onClick={chooseOneItem} ><p>choose One</p></button>
-                    {/* <button onClick={removeCart} ><p>Remove</p></button> */}
+                    <button className='choose-btn' onClick={chooseOneItem} ><p>choose One</p></button>
+                    <button className='remove-btn' onClick={removeCart} ><p>Choose Again</p></button>
                 </div>
             </div>
 

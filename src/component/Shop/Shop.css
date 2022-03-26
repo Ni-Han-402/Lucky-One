@@ -22,8 +22,8 @@
     background-color: #f0f8ff;
 }
 .choose-btn, .remove-btn {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border: none;
     border-radius: 5px;
     margin: 0 5px;
