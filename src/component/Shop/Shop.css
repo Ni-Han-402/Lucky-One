@@ -2,8 +2,36 @@
     display: flex;
 }
 .product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     width: 80%;
+    margin: 50px;
 }
 .cart-container{
     width: 20%;
+}
+
+@media screen and (max-width: 556px) {
+    .shop-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 800px) {
+    .shop-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 1020px) {
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
