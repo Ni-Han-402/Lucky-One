@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# CHOOSE LUCKY ONE
+
+[Netlify Live Link](https://choose-lucky-one.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
